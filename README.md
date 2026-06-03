@@ -120,6 +120,19 @@ This finding indicates that the failed login attempt originated from local user 
 Understanding logon types is critical during security investigations because it helps analysts determine how authentication activity was performed and whether the source of the event appears normal or suspicious.
 
 
+## 8. Investigation Summary
+
+![Investigation Summary](screenshots/investigation_summary.png)
+
+Following the review of multiple Event ID 4625 records, the investigation determined that the authentication failures were associated with unsuccessful local logon attempts.
+
+The evidence collected from Windows Security Logs showed that the authentication request failed due to incorrect credentials and was recorded as an Audit Failure event.
+
+The investigation process demonstrated how security analysts can use native Windows logging capabilities to identify authentication issues, review account activity, and determine the cause of failed login attempts.
+
+This type of analysis represents a common task performed in Security Operations Centers (SOC) when reviewing authentication-related alerts and user account activity.
+
+
 
 
 
