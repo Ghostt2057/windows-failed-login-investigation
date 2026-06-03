@@ -47,5 +47,20 @@ Filtering logs is a common practice during SOC investigations because it allows 
 Event ID 4625 specifically represents a failed logon attempt and is commonly monitored to identify authentication issues, unauthorized access attempts, and potential brute-force activity.
 
 
+## 3. Failed Logon Events Identified
+
+![Event 4625 Results](screenshots/event_4625_results.png)
+
+After applying the filter, multiple Event ID 4625 entries were identified within the Security log.
+
+These events represent authentication failures recorded by the Windows operating system.
+
+Reviewing failed logon events allows security analysts to determine patterns of authentication activity, identify recurring failures, and investigate potential security concerns affecting user accounts and systems.
+
+The presence of multiple failed logon events provided the evidence required to begin a detailed authentication investigation.
+
+
+
+
 
 
