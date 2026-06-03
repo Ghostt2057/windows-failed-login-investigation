@@ -27,7 +27,7 @@ The investigation was performed using native Windows logging capabilities and fo
 
 ## 1. Windows Security Log Overview
 
-![Security Log Overview](screenshots/security_log_overview.png)
+![Security Log Overview](Screenshots-windows/Capture1.PNG)
 
 The investigation began by accessing the Windows Security log through Event Viewer.
 
