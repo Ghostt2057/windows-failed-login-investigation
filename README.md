@@ -92,7 +92,7 @@ Understanding the type of account involved is an important part of security inve
 
 ## 6. Failure Reason Analysis
 
-![Failure Reason](screenshots/failure_reason.png)
+![Failure Reason](Screenshots-windows/Capture6.PNG)
 
 The failed authentication event was further analyzed by reviewing the failure information recorded by Windows.
 
