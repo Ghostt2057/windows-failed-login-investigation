@@ -62,7 +62,7 @@ The presence of multiple failed logon events provided the evidence required to b
 
 ## 4. Event ID 4625 Investigation
 
-![Event 4625 Details](screenshots/event_4625_details.png)
+![Event 4625 Details](Screenshots-windows/Capture4.PNG)
 
 A detailed review of Event ID 4625 was performed to identify the circumstances surrounding the failed authentication attempt.
 
