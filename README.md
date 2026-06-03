@@ -90,6 +90,23 @@ The presence of the `$` symbol indicates that the account is associated with the
 Understanding the type of account involved is an important part of security investigations because it helps analysts determine whether authentication failures are related to users, services, system accounts, or automated processes.
 
 
+## 6. Failure Reason Analysis
+
+![Failure Reason](screenshots/failure_reason.png)
+
+The failed authentication event was further analyzed by reviewing the failure information recorded by Windows.
+
+The event reported the following failure reason:
+
+`Unknown user name or bad password`
+
+This message indicates that Windows was unable to successfully authenticate the login request because the supplied credentials were invalid.
+
+Further review of the event status codes revealed that the authentication attempt failed due to an incorrect password.
+
+Analyzing failure reasons is an important part of SOC investigations because it helps determine whether authentication failures are caused by user mistakes, misconfigurations, automated processes, or potentially malicious activity.
+
+
 
 
 
