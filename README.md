@@ -38,7 +38,7 @@ Security analysts frequently use this log as a primary source of evidence during
 
 ## 2. Filtering Security Events
 
-![Event 4625 Filter](screenshots/event_4625_filter.png)
+![Event 4625 Filter](Screenshots-windows/Capture2.PNG)
 
 To focus the investigation on failed authentication activity, the Security log was filtered using Event ID 4625.
 
