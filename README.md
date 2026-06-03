@@ -122,7 +122,7 @@ Understanding logon types is critical during security investigations because it 
 
 ## 8. Investigation Summary
 
-![Investigation Summary](screenshots/investigation_summary.png)
+![Investigation Summary](Screenshots-windows/Capture8.PNG)
 
 Following the review of multiple Event ID 4625 records, the investigation determined that the authentication failures were associated with unsuccessful local logon attempts.
 
