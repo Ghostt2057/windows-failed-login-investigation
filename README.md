@@ -36,6 +36,15 @@ The Security log contains authentication events, account activity, privilege cha
 Security analysts frequently use this log as a primary source of evidence during incident investigations and authentication monitoring activities.
 
 
+## 2. Filtering Security Events
+
+![Event 4625 Filter](screenshots/event_4625_filter.png)
+
+To focus the investigation on failed authentication activity, the Security log was filtered using Event ID 4625.
+
+Filtering logs is a common practice during SOC investigations because it allows analysts to isolate relevant events from thousands of system records.
+
+Event ID 4625 specifically represents a failed logon attempt and is commonly monitored to identify authentication issues, unauthorized access attempts, and potential brute-force activity.
 
 
 
