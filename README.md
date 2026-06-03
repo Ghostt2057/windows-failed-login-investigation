@@ -109,7 +109,7 @@ Analyzing failure reasons is an important part of SOC investigations because it 
 
 ## 7. Logon Type Investigation
 
-![Logon Type](screenshots/logon_type.png)
+![Logon Type](Screenshots-windows/Capture7.PNG)
 
 The investigation identified a Logon Type value of `2`.
 
