@@ -77,7 +77,7 @@ Reviewing individual authentication events allows analysts to better understand 
 
 ## 5. Account Analysis
 
-![Account Name](screenshots/account_name.png)
+![Account Name](Screenshots-windows/Capture5.PNG)
 
 The investigation identified the account involved in the failed authentication attempt.
 
