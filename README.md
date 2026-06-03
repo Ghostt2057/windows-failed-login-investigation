@@ -60,6 +60,17 @@ Reviewing failed logon events allows security analysts to determine patterns of 
 The presence of multiple failed logon events provided the evidence required to begin a detailed authentication investigation.
 
 
+## 4. Event ID 4625 Investigation
+
+![Event 4625 Details](screenshots/event_4625_details.png)
+
+A detailed review of Event ID 4625 was performed to identify the circumstances surrounding the failed authentication attempt.
+
+The event details provide valuable information including the affected account, logon type, failure reason, status codes, and additional authentication data.
+
+Analyzing individual security events is a fundamental task performed by SOC analysts during incident investigations and authentication monitoring activities.
+
+The event data serves as evidence that helps determine whether an authentication failure is the result of normal user behavior, configuration issues, or potentially suspicious activity.
 
 
 
