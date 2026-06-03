@@ -75,6 +75,19 @@ Security analysts commonly investigate Event ID 4625 because it can reveal authe
 Reviewing individual authentication events allows analysts to better understand how and why access attempts failed within a Windows environment.
 
 
+## 5. Account Analysis
+
+![Account Name](screenshots/account_name.png)
+
+The investigation identified the account involved in the failed authentication attempt.
+
+The account name recorded in the event was:
+
+`LAPTOP-FNFFBP7U$`
+
+The presence of the `$` symbol indicates that the account is associated with the Windows system itself rather than a standard user account.
+
+Understanding the type of account involved is an important part of security investigations because it helps analysts determine whether authentication failures are related to users, services, system accounts, or automated processes.
 
 
 
