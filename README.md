@@ -107,6 +107,17 @@ Further review of the event status codes revealed that the authentication attemp
 Analyzing failure reasons is an important part of SOC investigations because it helps determine whether authentication failures are caused by user mistakes, misconfigurations, automated processes, or potentially malicious activity.
 
 
+## 7. Logon Type Investigation
+
+![Logon Type](screenshots/logon_type.png)
+
+The investigation identified a Logon Type value of `2`.
+
+Logon Type 2 represents an Interactive Logon, meaning that the authentication attempt was performed directly at the local system through the Windows login interface.
+
+This finding indicates that the failed login attempt originated from local user interaction rather than a remote connection, network authentication request, or Remote Desktop Protocol (RDP) session.
+
+Understanding logon types is critical during security investigations because it helps analysts determine how authentication activity was performed and whether the source of the event appears normal or suspicious.
 
 
 
