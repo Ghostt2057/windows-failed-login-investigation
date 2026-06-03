@@ -133,6 +133,49 @@ The investigation process demonstrated how security analysts can use native Wind
 This type of analysis represents a common task performed in Security Operations Centers (SOC) when reviewing authentication-related alerts and user account activity.
 
 
+## Key Findings
+
+During the investigation, several important findings were identified:
+
+* Event ID 4625 was successfully located and analyzed within the Windows Security log.
+* The failed authentication event was recorded as an Audit Failure.
+* The affected account was identified as `LAPTOP-FNFFBP7U$`.
+* The failure reason indicated invalid credentials.
+* Status code `0xC000006D` confirmed an authentication failure.
+* Sub Status code `0xC000006A` identified an incorrect password.
+* Logon Type `2` indicated an Interactive Logon performed locally on the system.
+* No evidence of remote authentication activity was observed during the investigation.
+
+These findings allowed the authentication failure to be fully explained and documented using native Windows security logs.
+
+
+## Skills Demonstrated
+
+This project provided hands-on experience with:
+
+* Windows Event Viewer
+* Security Log Analysis
+* Event ID 4625 Investigation
+* Authentication Failure Analysis
+* Log Filtering Techniques
+* Security Event Interpretation
+* Windows Security Monitoring
+* Incident Investigation Fundamentals
+* SOC Investigation Methodology
+* Evidence Collection and Documentation
+
+
+# Conclusion
+
+This project demonstrated the investigation of failed authentication events using Windows Security Logs and Event Viewer.
+
+By analyzing Event ID 4625 records, it was possible to identify the affected account, determine the reason for the authentication failure, review status codes, and understand how Windows records unsuccessful login attempts.
+
+The investigation showed that the authentication attempt failed due to an incorrect password and was classified as an Interactive Logon event generated locally on the system.
+
+Through this exercise, practical experience was gained in log analysis, authentication monitoring, event investigation, and security operations workflows commonly used by SOC analysts.
+
+The project highlights the importance of Windows Security Logs as a valuable source of evidence during security investigations and incident response activities.
 
 
 
