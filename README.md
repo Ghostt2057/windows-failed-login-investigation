@@ -64,13 +64,16 @@ The presence of multiple failed logon events provided the evidence required to b
 
 ![Event 4625 Details](Screenshots-windows/Capture4.PNG)
 
-A detailed review of Event ID 4625 was performed to identify the circumstances surrounding the failed authentication attempt.
+A detailed review of Event ID 4625 was performed using Windows Event Viewer.
 
-The event details provide valuable information including the affected account, logon type, failure reason, status codes, and additional authentication data.
+The event was recorded as an **Audit Failure** and contained the message **"An account failed to log on"**, indicating that Windows detected an unsuccessful authentication attempt.
 
-Analyzing individual security events is a fundamental task performed by SOC analysts during incident investigations and authentication monitoring activities.
+The event details provide important information such as the event source, timestamp, task category, account information, and authentication status.
 
-The event data serves as evidence that helps determine whether an authentication failure is the result of normal user behavior, configuration issues, or potentially suspicious activity.
+Security analysts commonly investigate Event ID 4625 because it can reveal authentication problems, user mistakes, password issues, or potentially suspicious login activity.
+
+Reviewing individual authentication events allows analysts to better understand how and why access attempts failed within a Windows environment.
+
 
 
 
